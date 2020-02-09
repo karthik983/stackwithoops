@@ -1,5 +1,5 @@
 // using function prototype
-function Stack(elements){
+function Stack(){
     this.elements=[];
     this.push=function(element){
         this.elements.push(element);
